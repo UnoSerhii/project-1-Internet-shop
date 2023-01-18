@@ -1,0 +1,75 @@
+.Header {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #d3fad1;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Container {
+  height: auto;
+  margin: 0 auto;
+  padding: 45px 50px;
+  max-width: 1540px;
+}
+
+.WrapperUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.WrapperDown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Place {
+  display: flex;
+  align-items: center;
+}
+
+.Contact {
+  color: #F1F8FF;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Navigation {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavStyled {
+  color: #2b7bc6;
+}
+
+.Btn {
+  border: 1px solid #333;
+  background: lightblue;
+  align-items: center;
+  padding: 20px 24px;
+  gap: 21px;
+}
+
+.Search {
+  display: flex;
+}
+
+.Input {
+  width: 600px;
+}
+
+.Icons {
+  background: #F1F8FF;
+  height: 60px;
+  width: 240px;
+  list-style: none;
+  gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

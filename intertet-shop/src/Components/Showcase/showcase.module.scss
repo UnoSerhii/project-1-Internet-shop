@@ -1,0 +1,45 @@
+.Wrapper {
+  padding-top: 15px;
+  display: flex;
+}
+
+.Container {
+  margin: 0 auto;
+  padding: 10px 15px;
+  max-width: 1540px;
+}
+
+.Intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 190px;
+  width: 500px;
+}
+
+.Products {
+  background: #c9e3fc;
+}
+
+.Sale {
+  background: #e0eeea;
+}
+
+.PositionImg {
+  margin-left: 50px;
+}
+
+.Text {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.Title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.Subtitle {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
