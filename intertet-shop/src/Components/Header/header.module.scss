@@ -1,6 +1,6 @@
 .Header {
   color: rgba(0, 0, 0, 0.87);
-  background-color: #d3fad1;
+  background-color: #f6f6f6;
   font-size: 14px;
   line-height: 17px;
 }
@@ -8,7 +8,7 @@
 .Container {
   height: auto;
   margin: 0 auto;
-  padding: 45px 50px;
+  padding: 15px 20px;
   max-width: 1540px;
 }
 
@@ -60,11 +60,12 @@
 }
 
 .Input {
-  width: 600px;
+  width: 1000px;
 }
 
 .Icons {
-  background: #F1F8FF;
+  background: #1976d2;
+  border-radius: 50px;
   height: 60px;
   width: 240px;
   list-style: none;

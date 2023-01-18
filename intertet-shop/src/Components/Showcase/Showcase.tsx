@@ -6,7 +6,7 @@ import { Button, ButtonGroup } from "@mui/material";
 
 const Showcase = () => {
   return (
-    <div className={classes.Container}>
+    <div className="container">
       <div className={classes.Wrapper}>
         <div className={classes.Slider}>
           <Slider />

@@ -3,17 +3,11 @@
   display: flex;
 }
 
-.Container {
-  margin: 0 auto;
-  padding: 10px 15px;
-  max-width: 1540px;
-}
-
 .Intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 190px;
-  width: 500px;
+  // height: 190px;
+  // width: 500px;
 }
 
 .Products {

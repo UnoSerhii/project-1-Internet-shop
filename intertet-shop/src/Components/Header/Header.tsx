@@ -24,7 +24,7 @@ const StyledBadge = styled(Badge)<BadgeProps>(({ theme }) => ({
 const Header = () => {
   return (
     <header className={classes.Header}>
-      <div className={classes.Container}>
+      <div className="container">
         <div className={classes.WrapperUp}>
           <a href="/">
             <img src={Logo} alt="logo" width={200} />
@@ -72,17 +72,17 @@ const Header = () => {
           <div>
             <div className={classes.Icons}>
               <IconButton aria-label="cart">
-                <StyledBadge badgeContent={1} color="success">
+                <StyledBadge badgeContent={1} color="warning">
                   <PermIdentityOutlinedIcon />
                 </StyledBadge>
               </IconButton>
               <IconButton aria-label="cart">
-                <StyledBadge badgeContent={9} color="success">
+                <StyledBadge badgeContent={9} color="warning">
                   <FavoriteBorderOutlinedIcon />
                 </StyledBadge>
               </IconButton>
               <IconButton aria-label="cart">
-                <StyledBadge badgeContent={4} color="success">
+                <StyledBadge badgeContent={4} color="warning">
                   <ShoppingCartIcon />
                 </StyledBadge>
               </IconButton>
