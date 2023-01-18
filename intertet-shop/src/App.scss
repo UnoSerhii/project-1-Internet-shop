@@ -19,3 +19,23 @@ a:focus {
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 10px 15px;
+  max-width: 1540px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.title:after {
+  margin-top: 5px;
+  content: '';
+  background-color: #1976d2;
+  height: 2px;
+  display: block;
+  width: 500px;
+}

@@ -24,7 +24,7 @@ const StyledBadge = styled(Badge)<BadgeProps>(({ theme }) => ({
 const Header = () => {
   return (
     <header className={classes.Header}>
-      <div className={classes.Container}>
+      <div className="container">
         <div className={classes.WrapperUp}>
           <a href="/">
             <img src={Logo} alt="logo" width={200} />

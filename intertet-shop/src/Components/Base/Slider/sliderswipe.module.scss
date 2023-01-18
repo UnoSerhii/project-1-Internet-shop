@@ -1,0 +1,34 @@
+.Card {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  // border: 1px solid black;
+  width: 260px;
+  height: 300px;
+  background: #d3fad1;
+  border-radius: 25px;
+}
+
+.CardsInner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.Title {
+  margin-bottom: 5px;
+}
+
+.Subtitle {
+  margin-bottom: 5px;
+}
+
+.Btn {
+  margin-top: 5px;
+}

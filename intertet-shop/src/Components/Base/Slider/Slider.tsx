@@ -19,7 +19,7 @@ const Slider = () => {
       <Swiper
         cssMode={true}
         navigation={true}
-        pagination={true}
+        // pagination={true}
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
@@ -30,7 +30,7 @@ const Slider = () => {
             <div className={classes.Text}>
               <h2 className={classes.Title}>Iphone 14 pro max</h2>
               <h4 className={classes.Subtitle}>Buy Now</h4>
-              <ButtonGroup className={classes.Btn} variant="contained" aria-label="outlined primary button group">
+              <ButtonGroup variant="contained" aria-label="outlined primary button group">
                 <Button>Buy now</Button>
               </ButtonGroup>
             </div>

@@ -8,7 +8,7 @@
 .Container {
   height: auto;
   margin: 0 auto;
-  padding: 45px 50px;
+  padding: 15px 20px;
   max-width: 1540px;
 }
 
@@ -60,11 +60,12 @@
 }
 
 .Input {
-  width: 600px;
+  width: 1000px;
 }
 
 .Icons {
-  background: #F1F8FF;
+  background: #f8fff1;
+  border-radius: 50px;
   height: 60px;
   width: 240px;
   list-style: none;
