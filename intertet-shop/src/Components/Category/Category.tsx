@@ -46,7 +46,7 @@ const Category = () => {
           </div>
         </div>
         <div className={classes.ItemSmall}>
-          <img className={classes.ImageSmall} src={airpods} alt="" />
+          <img className={classes.ImageSmallPods} src={airpods} alt="" />
           <div className={classes.Text}>
             <h2 className={classes.Title}>Airpods</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
