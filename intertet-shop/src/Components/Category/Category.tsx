@@ -13,8 +13,8 @@ import Title from "../Title/Title";
 const Category = () => {
   return (
     <div className={classes.Category}>
-      <Title titleText={'Other Products'} />
-      <div className={classes.Items}>
+      <Title titleText={'Catalog Products'} />
+      <div className={`${classes.Items} container`}>
         <div className={classes.ItemMedium}>
           <img className={classes.ImageMedium} src={iphone} alt="" />
           <div className={classes.Text}>

@@ -11,7 +11,7 @@ import RatingStar from "../Rating/RatingStar";
 
 const SliderSwipe = () => {
   return (
-    <>
+    <div className="container">
       <Swiper
         slidesPerView={5}
         spaceBetween={5}
@@ -110,7 +110,7 @@ const SliderSwipe = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 

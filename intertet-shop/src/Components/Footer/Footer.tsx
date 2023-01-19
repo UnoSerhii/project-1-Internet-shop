@@ -7,8 +7,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 const Footer = () => {
   return (
-    <div className={`${classes.Wrapper} container`}>
-      <div className={classes.BlockItems}>
+    <div className={classes.Wrapper}>
+      <div className={`${classes.BlockItems} container`}>
         <div className={classes.BlockAddress}>
           <h3 className={classes.Title}>Title</h3>
           <div className={classes.Follow}>
