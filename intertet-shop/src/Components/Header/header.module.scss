@@ -47,12 +47,15 @@
   color: #2b7bc6;
 }
 
-.Btn {
-  border: 1px solid #333;
-  background: lightblue;
-  align-items: center;
-  padding: 20px 24px;
-  gap: 21px;
+.Button {}
+
+.ButtonLg {
+  width: 400px;
+}
+
+
+.ButtonMg {
+  width: 100px;
 }
 
 .Search {
@@ -60,7 +63,7 @@
 }
 
 .Input {
-  width: 1000px;
+  width: 650px;
 }
 
 .Icons {

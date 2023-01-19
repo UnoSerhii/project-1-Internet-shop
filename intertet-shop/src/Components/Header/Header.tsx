@@ -60,10 +60,10 @@ const Header = () => {
           </nav>
         </div>
         <div className={classes.WrapperDown}>
-          <ButtonGroup variant="contained" aria-label="outlined primary button group">
-            <Button>Catalog</Button>
-            <Button>Sale</Button>
-            <Button>Brands</Button>
+          <ButtonGroup className={classes.Button} variant="contained" aria-label="outlined primary button group">
+            <Button className={classes.ButtonLg} color="info">Catalog</Button>
+            <Button className={classes.ButtonMg}>Sale</Button>
+            <Button className={classes.ButtonMg}>Brands</Button>
           </ButtonGroup>
           <div className={classes.Search}>
             <input className={classes.Input} type="search" />

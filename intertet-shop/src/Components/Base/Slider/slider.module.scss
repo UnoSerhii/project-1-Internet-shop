@@ -5,8 +5,11 @@
 
 .ImageSlider {
   overflow: hidden;
-  width: 77%;
+  object-fit: cover;
+  width: 400px;
   height: 90%;
+  position: relative;
+  top: 25px;
 }
 
 .Intro {
