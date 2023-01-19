@@ -8,14 +8,15 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
-import PlaceIcon from '@mui/icons-material/Place';
-import AddIcon from '@mui/icons-material/Add';
+import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
+import PlaceIcon from "@mui/icons-material/Place";
+import AddIcon from "@mui/icons-material/Add";
+import FreeSoloCreateOptionDialog from "../Base/InputSearch/InputSearch";
 
 const StyledBadge = styled(Badge)<BadgeProps>(({ theme }) => ({
   "& .MuiBadge-badge": {
     right: -3,
-    top:0,
+    top: 0,
     border: `2px solid ${theme.palette.background.paper}`,
     padding: "0 4px",
   },
@@ -37,37 +38,50 @@ const Header = () => {
             <a href="tel:8 495 018-32-10">+8-495-018-32-10</a>
             <ArrowDropDownOutlinedIcon />
             <a href="/">Please Call Me</a>
-            <AddIcon />
           </div>
           <nav>
             <ul className={classes.Navigation}>
               <li>
-                <a className={classes.NavStyled} href="/">Pay</a>
+                <a className={classes.NavStyled} href="/">
+                  Pay
+                </a>
               </li>
               <li>
-                <a className={classes.NavStyled} href="/">Delivery</a>
+                <a className={classes.NavStyled} href="/">
+                  Delivery
+                </a>
               </li>
               <li>
-                <a className={classes.NavStyled} href="/">About</a>
+                <a className={classes.NavStyled} href="/">
+                  About
+                </a>
               </li>
               <li>
-                <a className={classes.NavStyled} href="/">Benefits</a>
+                <a className={classes.NavStyled} href="/">
+                  Benefits
+                </a>
               </li>
               <li>
-                <a className={classes.NavStyled} href="/">Contact</a>
+                <a className={classes.NavStyled} href="/">
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>
         </div>
         <div className={classes.WrapperDown}>
           <ButtonGroup variant="contained" aria-label="outlined primary button group">
-            <Button>Catalog</Button>
-            <Button>Sale</Button>
-            <Button>Brands</Button>
+            <Button className={classes.ButtonLg} color="info">
+              Catalog
+            </Button>
+            <Button className={classes.ButtonMg}>Sale</Button>
+            <Button className={classes.ButtonMg}>Brands</Button>
           </ButtonGroup>
           <div className={classes.Search}>
-            <input className={classes.Input} type="search" />
+            <FreeSoloCreateOptionDialog />
+            <Button className={classes.SearchIcon} color="info">
             <SearchOutlinedIcon />
+            </Button>
           </div>
           <div>
             <div className={classes.Icons}>

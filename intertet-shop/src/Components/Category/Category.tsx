@@ -13,14 +13,14 @@ import Title from "../Title/Title";
 const Category = () => {
   return (
     <div className={classes.Category}>
-      <Title titleText={'Other Products'} />
-      <div className={classes.Items}>
+      <Title titleText={'Catalog Products'} />
+      <div className={`${classes.Items} container`}>
         <div className={classes.ItemMedium}>
           <img className={classes.ImageMedium} src={iphone} alt="" />
           <div className={classes.Text}>
             <h2 className={classes.Title}>Iphone</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -30,7 +30,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Ipad</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -40,7 +40,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>MacBook</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -50,7 +50,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Airpods</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -60,7 +60,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Apple Wach</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -70,7 +70,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Case</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -80,7 +80,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Apple Tv</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -90,7 +90,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Accessories</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
@@ -100,7 +100,7 @@ const Category = () => {
           <div className={classes.Text}>
             <h2 className={classes.Title}>Mac</h2>
             <h4 className={classes.Subtitle}>Buy Now</h4>
-            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <ButtonGroup variant="outlined" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>
           </div>
