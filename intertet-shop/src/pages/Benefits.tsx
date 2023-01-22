@@ -2,7 +2,7 @@
 
 const Benefits = () => {
   return (
-    <div>Benefits</div>
+    <div className="h-100">Benefits</div>
   )
 }
 

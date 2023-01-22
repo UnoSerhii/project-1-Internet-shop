@@ -2,7 +2,7 @@
 
 const Catalog = () => {
   return (
-    <div>Catalog</div>
+    <div className="h-100">Catalog</div>
   )
 }
 

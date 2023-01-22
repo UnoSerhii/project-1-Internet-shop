@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const Pay = () => {
   return (
-    <div>Pay</div>
+    <div className="h-100">Pay</div>
   )
 }
 

@@ -2,7 +2,7 @@
 
 const Delivery = () => {
   return (
-    <div>Delivery</div>
+    <div className="h-100">Delivery</div>
   )
 }
 
