@@ -4,6 +4,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import Input from "../Base/InputSearch/Input";
 
 const Footer = () => {
   return (
@@ -12,7 +13,8 @@ const Footer = () => {
         <div className={classes.BlockAddress}>
           <h3 className={classes.Title}>Title</h3>
           <div className={classes.Follow}>
-            <input className={classes.Input} type="email" />
+            <Input width={200} />
+            {/* <input className={classes.Input} type="email" /> */}
             <ButtonGroup variant="contained" aria-label="outlined primary button group">
               <Button>Subscribe</Button>
             </ButtonGroup>
@@ -127,7 +129,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className={classes.Author}>Made Serrhii Kokorskyi</p>
+      <p className={classes.Author}>Made by Serhii Kokorskyi</p>
     </div>
   );
 };
