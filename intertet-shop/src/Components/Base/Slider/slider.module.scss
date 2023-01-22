@@ -1,12 +1,13 @@
 .mySwiper {
-  // height: 380px;
-  width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 990px;
+  overflow: hidden;
 }
 
 .ImageSlider {
-  overflow: hidden;
   object-fit: cover;
-  width: 400px;
+  width: 430px;
   height: 90%;
   position: relative;
   top: 25px;
@@ -15,6 +16,7 @@
 .Intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: auto;
   background: #fcfbc8;
 }
 
@@ -32,4 +34,3 @@
   font-size: 22px;
   margin-bottom: 15px;
 }
-

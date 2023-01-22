@@ -1,11 +1,12 @@
-.Wrapper {}
+.Wrapper {
+  width: 100%;
+  background: #f6f6f6;
+}
 
 .BlockItems {
   display: flex;
-  padding: 20px 0;
-  justify-content: space-around;
-  background: #f6f6f6;
-  border-radius: 30px;
+  padding: 20px 40px;
+  justify-content: space-between;
 }
 
 .Social {
@@ -16,10 +17,9 @@
 
 .SocialEffects {
   color: rgb(101, 108, 125);
-}
-
-.SocialEffects:hover {
-  color: #1976d2;
+  &:hover {
+    color: #1976d2;
+  }
 }
 
 .Title {
@@ -35,17 +35,15 @@
   gap: 10px;
 }
 
-
 .Links {
   color: rgb(101, 108, 125);
   text-decoration: none;
+  &:hover {
+    color: #1976d2;
+  }
 }
 
-.Links:hover {
-  color: #1976d2;
-}
-
-.Link { 
+.Link {
   color: #1976d2;
   margin-bottom: 10px;
 }
@@ -63,9 +61,10 @@
 
 .Follow {
   margin-bottom: 20px;
+  display: flex;
 }
 
-.Author{
+.Author {
   color: rgb(101, 108, 125);
   margin: 20px auto;
   width: 200px;

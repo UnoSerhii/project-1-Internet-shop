@@ -1,13 +1,21 @@
 .Wrapper {
   padding-top: 15px;
   display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .Intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  // height: 190px;
-  // width: 500px;
+  height: 100%;
+  width: 490px;
+}
+
+.WrapperCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .Products {
@@ -19,7 +27,7 @@
 }
 
 .PositionImg {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .Text {
@@ -36,4 +44,3 @@
   font-size: 15px;
   margin-bottom: 15px;
 }
-

@@ -1,0 +1,24 @@
+.Inner {
+  display: flex;
+  background: #f6f6f6;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+  gap: 10px;
+}
+
+.Input {
+  display: flex;
+}
+
+.Image {
+margin-left: 150px;
+}
