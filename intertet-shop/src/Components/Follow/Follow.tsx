@@ -6,7 +6,7 @@ import Title from "../Title/Title";
 
 const Follow = () => {
   return (
-    <div className="container">
+    <section className="container">
       <Title titleText={'Contact Us'} />
       <div className={classes.Inner}>
         <div className={classes.Title}>
@@ -21,7 +21,7 @@ const Follow = () => {
           <img className={classes.Image} src={smartphone} alt="Input Image" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

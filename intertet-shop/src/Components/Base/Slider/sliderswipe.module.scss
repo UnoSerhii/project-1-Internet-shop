@@ -1,12 +1,17 @@
 .Card {
-  display: grid;
-  justify-items: center;
-  align-content: center;
-  // max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   width: 100%;
   height: 400px;
   margin: 0 auto;
   background: #f6f6f6;
+  transition: all .5s;
+  &:hover {
+    background: rgb(223, 236, 223);
+  }
 }
 
 .CardsInner {
@@ -15,29 +20,38 @@
 }
 
 .Image {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  margin-bottom: 5px;
 }
 
-.Price {
+.BlockPrice {
   display: flex;
   justify-content: space-between;
   max-width: 200px;
   width: 100%;
   align-items: center;
-  margin-top: 20px;
+}
+
+.NewPrice {
+  font-size: 20px;
+  color: red;
+}
+
+.OldPrice {
+  color: black;
+  text-decoration: line-through;
 }
 
 .Title {
-  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .Subtitle {
-  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .Btn {
-  margin-top: 5px;
 }

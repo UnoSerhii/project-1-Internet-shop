@@ -2,7 +2,7 @@ import classes from '~/Components/Benefits/benefits.module.scss'
 
 const Benefits = () => {
   return (
-    <div className={classes.Wrapper}></div>
+    <section className={classes.Wrapper}></section>
   )
 }
 

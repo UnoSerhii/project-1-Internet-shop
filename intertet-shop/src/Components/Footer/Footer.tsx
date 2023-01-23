@@ -8,7 +8,7 @@ import Input from "../Base/InputSearch/Input";
 
 const Footer = () => {
   return (
-    <div className={classes.Wrapper}>
+    <footer className={classes.Wrapper}>
       <div className={`${classes.BlockItems} container`}>
         <div className={classes.BlockAddress}>
           <h3 className={classes.Title}>Title</h3>
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
       </div>
       <p className={classes.Author}>Made by Serhii Kokorskyi</p>
-    </div>
+    </footer>
   );
 };
 

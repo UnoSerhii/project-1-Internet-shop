@@ -6,7 +6,7 @@ import { Button, ButtonGroup } from "@mui/material";
 
 const Showcase = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={classes.Wrapper}>
         <div className={classes.Slider}>
           <Slider />
@@ -39,7 +39,7 @@ const Showcase = () => {
           
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

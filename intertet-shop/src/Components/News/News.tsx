@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 const News = () => {
   return (
-    <div className="container">
+    <section className="container">
       <Title titleText={"Technical News"} />
       <div className={`${classes.Wrapper} container`}>
         <CardNews />
@@ -16,7 +16,7 @@ const News = () => {
         <CardNews />
         <CardNews />
       </div>
-    </div>
+    </section>
   );
 };
 
