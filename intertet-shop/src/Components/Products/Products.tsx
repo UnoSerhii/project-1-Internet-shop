@@ -4,12 +4,12 @@ import Title from "../Title/Title";
 
 const Products = () => {
   return (
-    <div className={`${classes.Container} container`}>
+    <section className={`${classes.Container} container`}>
       <div className={classes.CardsInner}>
         <Title titleText={"New Products Buy Now"} />
         <SliderSwipe />
       </div>
-    </div>
+    </section>
   );
 };
 

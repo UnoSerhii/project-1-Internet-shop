@@ -1,8 +1,15 @@
+import Filter from "~/Components/Filter/Filter"
+import PageIntro from "~/Components/PageIntro/PageIntro"
 
 
 const Catalog = () => {
   return (
-    <div className="h-100">Catalog</div>
+    <section>
+      <PageIntro />
+      <div>
+        <Filter />
+      </div>
+    </section>
   )
 }
 

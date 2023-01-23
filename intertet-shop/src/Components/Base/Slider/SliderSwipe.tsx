@@ -12,6 +12,7 @@ import RatingStar from "../Rating/RatingStar";
 const SliderSwipe = () => {
   return (
     <Swiper
+      navigation={true}
       slidesPerView={5}
       spaceBetween={20}
       pagination={{
@@ -26,8 +27,11 @@ const SliderSwipe = () => {
           <h5 className={classes.Subtitle}>128 gb SpaceGray</h5>
           <img className={classes.Image} src={iphone} alt="" />
           <RatingStar />
-          <div className={classes.Price}>
-            <h3 style={{color: 'red'}}>1500$</h3>
+          <div className={classes.BlockPrice}>
+            <div>
+              <h3 className={classes.NewPrice}>1500$</h3>
+              <h4 className={classes.OldPrice}>1800$</h4>
+            </div>
             <ButtonGroup className={classes.Btn} variant="contained" aria-label="outlined primary button group">
               <Button>Buy now</Button>
             </ButtonGroup>

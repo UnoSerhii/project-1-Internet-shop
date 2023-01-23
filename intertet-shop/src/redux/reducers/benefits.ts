@@ -21,7 +21,7 @@ const initialState = {
 
 type Action<T = any> = {
   type: string,
-  payload: T
+  payload: T,
 }
 
 const benefits = (state = initialState, { type, payload }: Action) => {

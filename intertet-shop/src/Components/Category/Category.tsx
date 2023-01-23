@@ -12,7 +12,7 @@ import Title from "../Title/Title";
 
 const Category = () => {
   return (
-    <div className={classes.Category}>
+    <section className={classes.Category}>
       <Title titleText={'Catalog Products'} />
       <div className={`${classes.Items} container`}>
         <div className={classes.ItemMedium}>
@@ -106,7 +106,7 @@ const Category = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
