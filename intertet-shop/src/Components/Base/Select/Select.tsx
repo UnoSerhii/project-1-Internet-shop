@@ -30,7 +30,7 @@ const Select: FC<SelectProps> = ({ label, options, id }) => {
     setOpen(false);
   };
 
-  const handleChange = ( event : SelectChangeEvent<HTMLSelectElement>) => {
+  const handleChange = ( event : SelectChangeEvent<any>) => {
     setValue(event.target.value);
   };
 

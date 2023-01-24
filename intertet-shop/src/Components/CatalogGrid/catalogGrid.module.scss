@@ -1,0 +1,60 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.Categories {
+  display: flex;
+}
+
+.ListItems {
+  display: flex;
+  gap: 20px;
+}
+
+.Sorted {
+  margin: 20px 0;
+}
+
+.CatalogCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  background: pink;
+  width: 400px;
+  height: 500px;
+}
+
+.Image {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.BlockPrice {
+  display: flex;
+  gap: 50px;
+}
+
+.Price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.NewPrice {
+  color: red;
+}
+
+.OldPrice {
+  text-decoration: line-through;
+}
