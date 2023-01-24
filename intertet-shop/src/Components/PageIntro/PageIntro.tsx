@@ -1,6 +1,6 @@
 const PageIntro = () => {
   return (
-    <section className="container">
+    <section>
       <div>Breadcrumbs</div>
       <h3>Title</h3>
     </section>

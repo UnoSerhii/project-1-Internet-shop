@@ -4,12 +4,12 @@ import { Action } from "~/types/Redux";
 
 
 
-// export const addCategoryToFilter = ({category}: number) => ({
-//   type: ADD_CATEGORY_TO_FILTER,
-//   payload: {
-//     category,
-//   },
-// });
+export const addCategoryToFilter = ({category}: any) => ({
+  type: ADD_CATEGORY_TO_FILTER,
+  payload: {
+    category,
+  },
+});
 
 export const removeCategoryFromFilter = ({id}: {id: number}) => ({
   type: REMOVE_CATEGORY_FROM_FILTER,

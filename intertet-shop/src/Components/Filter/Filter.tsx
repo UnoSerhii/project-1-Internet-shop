@@ -1,4 +1,5 @@
 import classes from "~/Components/Filter/filter.module.scss";
+import Checkbox from "../Base/Checkbox/Checkbox";
 import Select from "../Base/Select/Select";
 
 const options = [
@@ -30,18 +31,68 @@ const options = [
 
 const Filter = () => {
   return (
-    <section className="container">
-      <div className={classes.Wrapper}>
-        <div>
-          <h3 className={classes.Title}>Filter</h3>
-          <div className={classes.Inner}>
-            <p className={classes.Description}>Selected 10 products</p>
-            <div>Button Category</div>
-            <div className={classes.Label}>
-              <Select id="sorted-by" label="Сортувати за" options={options} />
-            </div>
+    <section className={classes.Content}>
+      <div className={classes.Header}>Filter and Icon</div>
+      <div className={classes.Body}>
+        <div className={classes.SectionsFilter}>
+          <h3 className={classes.FilterTitle}>Products</h3>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
           </div>
         </div>
+        <div className={classes.SectionsFilter}>
+          <h3 className={classes.FilterTitle}>Products</h3>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+        </div>
+        <div className={classes.SectionsFilter}>
+          <h3 className={classes.FilterTitle}>Products</h3>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+        </div>
+        <div className={classes.SectionsFilter}>
+          <h3 className={classes.FilterTitle}>Products</h3>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+        </div>
+        <div className={classes.SectionsFilter}>
+          <h3 className={classes.FilterTitle}>Products</h3>
+          <div className={classes.FilterOptions}>
+            <Checkbox />
+            <span>Product</span>
+            <span>Count</span>
+          </div>
+        </div>
+      </div>
+      <div className={classes.Footer}>
+        <button>Refresh</button>
+        <button>Go</button>
       </div>
     </section>
   );
