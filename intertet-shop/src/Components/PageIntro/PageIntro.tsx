@@ -1,7 +1,9 @@
+import Breadcrumbs from "../Base/Breadcrumbs/Breadcrumbs";
+
 const PageIntro = () => {
   return (
     <section>
-      <div>Breadcrumbs</div>
+      <Breadcrumbs />
       <h3>Title</h3>
     </section>
   );
