@@ -1,0 +1,60 @@
+.FilterWrapper {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  font-size: 17px;
+  font-weight: 700;
+  outline: none;
+  padding: 10px 15px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FilterList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.ItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Item {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  width: 100%;
+  color: gray;
+  gap: 10px;
+}
+
+.Info {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.ItemCount {
+  display: block;
+  margin-top: 3px;
+  font-weight: 500;
+  color: gray;
+  font-size: 12px;
+}
+
+.More {
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background: transparent;
+  color: gray;
+  cursor: pointer;
+}

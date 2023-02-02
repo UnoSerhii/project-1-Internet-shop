@@ -1,5 +1,5 @@
 import CatalogGrid from "~/Components/CatalogGrid/CatalogGrid"
-import Filter from "~/Components/Filter/Filter"
+import CategoriesCatalog from "~/Components/CatalogSidebar/CategoriesCatalog"
 import PageIntro from "~/Components/PageIntro/PageIntro"
 
 
@@ -8,7 +8,7 @@ const Catalog = () => {
     <section className="container">
       <PageIntro />
       <div className="FlexCatalog">
-        <Filter />
+        <CategoriesCatalog />
         <CatalogGrid />
       </div>
     </section>
