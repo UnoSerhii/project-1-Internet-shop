@@ -1,42 +1,39 @@
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
-import Rating from "@mui/material/Rating";
 import classes from "~/Components/CatalogGrid/catalogGrid.module.scss";
 import RatingStar from "../Base/Rating/RatingStar";
 import iphone from "~/assets/images/original.jpg";
+// import Select from "../Base/Select/Select";
+
+const options = [
+  {
+    value: "За популярністю",
+    id: 1,
+  },
+  {
+    value: "Від найнижчої ціни",
+    id: 2,
+  },
+  {
+    value: "Від дорогих",
+    id: 3,
+  },
+  {
+    value: "За рейтингом",
+    id: 4,
+  },
+  {
+    value: "Акційні",
+    id: 5,
+  },
+  {
+    value: "Зі знижкою",
+    id: 6,
+  },
+];
 
 const CatalogGrid = () => {
   return (
-    <div className={classes.Wrapper}>
-      <nav className={classes.Categories}>
-        <ul className={classes.ListItems}>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-          <li className={classes.ListItem}>
-            <a href="/">Button</a>
-          </li>
-        </ul>
-      </nav>
-      <div className={classes.Sorted}>Sorted</div>
       <div className={classes.CatalogInner}>
         <div className={classes.CatalogCards}>
           <div className={classes.Card}>
@@ -176,7 +173,6 @@ const CatalogGrid = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

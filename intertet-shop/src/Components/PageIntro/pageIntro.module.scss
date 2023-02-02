@@ -1,0 +1,24 @@
+.Wrapper {
+
+}
+
+.Categories {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.ListItems {
+  display: flex;
+  gap: 20px;
+  width: 800px;
+}
+
+.Sorted {
+  margin: 20px 0;
+}
+
+.Select {
+  width: 300px;
+}

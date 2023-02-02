@@ -129,7 +129,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className={classes.Author}>Made by Serhii Kokorskyi</p>
+      <p className={classes.Author}>Copyright © Made by Serhii Kokorskyi</p>
     </footer>
   );
 };
